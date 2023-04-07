@@ -1,0 +1,45 @@
+.logo-div{
+  height: 20vh;
+  border: 1px solid white;border: 2px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#logo{
+  max-height: 80%;
+  max-width: 80%;
+}
+@media screen and (max-width: 768px), print {
+  .logo-div{
+    border: none;
+    height: 100px;
+    justify-content: center;
+    align-items: end;
+  }
+  
+}
+
+.heading{
+  height: 20vh;
+  border: 2px solid white;
+}
+
+@media screen and (max-width: 768px), print {
+  .heading{
+    height: 120px;
+    border: none;
+    
+    
+  }
+}
+
+.sidebar-content { 
+  text-align: center;
+  
+}
+.side-bar{
+  height: 90 vh;
+  border: 2px solid white;
+}
+
